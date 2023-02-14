@@ -20,8 +20,6 @@ public class main {
 
     record Person(String name){}
     record GreetResponse(String greet, List<String> favprogName, Person person) {}
-public String test(String name){
-        return name;
-}
+
 }
 
